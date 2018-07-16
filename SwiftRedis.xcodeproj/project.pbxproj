@@ -1,0 +1,852 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"SwiftRedis::SwiftRedisPackageTests::ProductTarget" /* SwiftRedisPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_115 /* Build configuration list for PBXAggregateTarget "SwiftRedisPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_118 /* PBXTargetDependency */,
+			);
+			name = SwiftRedisPackageTests;
+			productName = SwiftRedisPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		OBJ_100 /* RedisMulti+List.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* RedisMulti+List.swift */; };
+		OBJ_101 /* RedisMulti+Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* RedisMulti+Set.swift */; };
+		OBJ_102 /* RedisMulti+SortedSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* RedisMulti+SortedSet.swift */; };
+		OBJ_103 /* RedisMulti.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* RedisMulti.swift */; };
+		OBJ_104 /* RedisResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* RedisResp.swift */; };
+		OBJ_106 /* Socket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Socket::Socket::Product" /* Socket.framework */; };
+		OBJ_113 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_124 /* AuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* AuthTests.swift */; };
+		OBJ_125 /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* CommonUtils.swift */; };
+		OBJ_126 /* TestBasicCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* TestBasicCommands.swift */; };
+		OBJ_127 /* TestBinarySafeCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* TestBinarySafeCommands.swift */; };
+		OBJ_128 /* TestBitfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* TestBitfield.swift */; };
+		OBJ_129 /* TestConnectCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* TestConnectCommands.swift */; };
+		OBJ_130 /* TestGeoCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* TestGeoCommands.swift */; };
+		OBJ_131 /* TestGeoRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* TestGeoRadius.swift */; };
+		OBJ_132 /* TestGeoRadiusByMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* TestGeoRadiusByMember.swift */; };
+		OBJ_133 /* TestHashCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* TestHashCommands.swift */; };
+		OBJ_134 /* TestIssueCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* TestIssueCommand.swift */; };
+		OBJ_135 /* TestListsPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* TestListsPart1.swift */; };
+		OBJ_136 /* TestListsPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* TestListsPart2.swift */; };
+		OBJ_137 /* TestListsPart3.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* TestListsPart3.swift */; };
+		OBJ_138 /* TestMoreCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* TestMoreCommands.swift */; };
+		OBJ_139 /* TestSetCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* TestSetCommands.swift */; };
+		OBJ_140 /* TestSetCommandsPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* TestSetCommandsPart2.swift */; };
+		OBJ_141 /* TestSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* TestSort.swift */; };
+		OBJ_142 /* TestStringAndBitCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* TestStringAndBitCommands.swift */; };
+		OBJ_143 /* TestTransactionsPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* TestTransactionsPart1.swift */; };
+		OBJ_144 /* TestTransactionsPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* TestTransactionsPart2.swift */; };
+		OBJ_145 /* TestTransactionsPart3.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* TestTransactionsPart3.swift */; };
+		OBJ_146 /* TestTransactionsPart4.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* TestTransactionsPart4.swift */; };
+		OBJ_147 /* TestTransactionsPart5.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* TestTransactionsPart5.swift */; };
+		OBJ_148 /* TestTransactionsPart6.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* TestTransactionsPart6.swift */; };
+		OBJ_149 /* TestTransactionsPart7.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* TestTransactionsPart7.swift */; };
+		OBJ_150 /* TestTransactionsPart8.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* TestTransactionsPart8.swift */; };
+		OBJ_151 /* VerifyLinuxTestCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* VerifyLinuxTestCount.swift */; };
+		OBJ_153 /* SwiftRedis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftRedis::SwiftRedis::Product" /* SwiftRedis.framework */; };
+		OBJ_154 /* Socket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Socket::Socket::Product" /* Socket.framework */; };
+		OBJ_73 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_60 /* Socket.swift */; };
+		OBJ_74 /* SocketProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* SocketProtocols.swift */; };
+		OBJ_75 /* SocketUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* SocketUtils.swift */; };
+		OBJ_82 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* Package.swift */; };
+		OBJ_88 /* Redis+Basic.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Redis+Basic.swift */; };
+		OBJ_89 /* Redis+Geo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Redis+Geo.swift */; };
+		OBJ_90 /* Redis+Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Redis+Hash.swift */; };
+		OBJ_91 /* Redis+List.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Redis+List.swift */; };
+		OBJ_92 /* Redis+Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Redis+Set.swift */; };
+		OBJ_93 /* Redis+SortedSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Redis+SortedSet.swift */; };
+		OBJ_94 /* Redis.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Redis.swift */; };
+		OBJ_95 /* RedisInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* RedisInfo.swift */; };
+		OBJ_96 /* RedisMisc.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* RedisMisc.swift */; };
+		OBJ_97 /* RedisMulti+Basic.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* RedisMulti+Basic.swift */; };
+		OBJ_98 /* RedisMulti+Geo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* RedisMulti+Geo.swift */; };
+		OBJ_99 /* RedisMulti+Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* RedisMulti+Hash.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23F3480520B7C3F200CD8919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Socket::Socket";
+			remoteInfo = Socket;
+		};
+		23F3480620B7C3F200CD8919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SwiftRedis::SwiftRedis";
+			remoteInfo = SwiftRedis;
+		};
+		23F3480720B7C3F200CD8919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Socket::Socket";
+			remoteInfo = Socket;
+		};
+		23F3480820B7C3F300CD8919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SwiftRedis::SwiftRedisTests";
+			remoteInfo = SwiftRedisTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		OBJ_10 /* Redis+Geo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Redis+Geo.swift"; sourceTree = "<group>"; };
+		OBJ_11 /* Redis+Hash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Redis+Hash.swift"; sourceTree = "<group>"; };
+		OBJ_12 /* Redis+List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Redis+List.swift"; sourceTree = "<group>"; };
+		OBJ_13 /* Redis+Set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Redis+Set.swift"; sourceTree = "<group>"; };
+		OBJ_14 /* Redis+SortedSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Redis+SortedSet.swift"; sourceTree = "<group>"; };
+		OBJ_15 /* Redis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redis.swift; sourceTree = "<group>"; };
+		OBJ_16 /* RedisInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedisInfo.swift; sourceTree = "<group>"; };
+		OBJ_17 /* RedisMisc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedisMisc.swift; sourceTree = "<group>"; };
+		OBJ_18 /* RedisMulti+Basic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RedisMulti+Basic.swift"; sourceTree = "<group>"; };
+		OBJ_19 /* RedisMulti+Geo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RedisMulti+Geo.swift"; sourceTree = "<group>"; };
+		OBJ_20 /* RedisMulti+Hash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RedisMulti+Hash.swift"; sourceTree = "<group>"; };
+		OBJ_21 /* RedisMulti+List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RedisMulti+List.swift"; sourceTree = "<group>"; };
+		OBJ_22 /* RedisMulti+Set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RedisMulti+Set.swift"; sourceTree = "<group>"; };
+		OBJ_23 /* RedisMulti+SortedSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RedisMulti+SortedSet.swift"; sourceTree = "<group>"; };
+		OBJ_24 /* RedisMulti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedisMulti.swift; sourceTree = "<group>"; };
+		OBJ_25 /* RedisResp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedisResp.swift; sourceTree = "<group>"; };
+		OBJ_28 /* AuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTests.swift; sourceTree = "<group>"; };
+		OBJ_29 /* CommonUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUtils.swift; sourceTree = "<group>"; };
+		OBJ_30 /* TestBasicCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBasicCommands.swift; sourceTree = "<group>"; };
+		OBJ_31 /* TestBinarySafeCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBinarySafeCommands.swift; sourceTree = "<group>"; };
+		OBJ_32 /* TestBitfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBitfield.swift; sourceTree = "<group>"; };
+		OBJ_33 /* TestConnectCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestConnectCommands.swift; sourceTree = "<group>"; };
+		OBJ_34 /* TestGeoCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGeoCommands.swift; sourceTree = "<group>"; };
+		OBJ_35 /* TestGeoRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGeoRadius.swift; sourceTree = "<group>"; };
+		OBJ_36 /* TestGeoRadiusByMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGeoRadiusByMember.swift; sourceTree = "<group>"; };
+		OBJ_37 /* TestHashCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHashCommands.swift; sourceTree = "<group>"; };
+		OBJ_38 /* TestIssueCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestIssueCommand.swift; sourceTree = "<group>"; };
+		OBJ_39 /* TestListsPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestListsPart1.swift; sourceTree = "<group>"; };
+		OBJ_40 /* TestListsPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestListsPart2.swift; sourceTree = "<group>"; };
+		OBJ_41 /* TestListsPart3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestListsPart3.swift; sourceTree = "<group>"; };
+		OBJ_42 /* TestMoreCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMoreCommands.swift; sourceTree = "<group>"; };
+		OBJ_43 /* TestSetCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSetCommands.swift; sourceTree = "<group>"; };
+		OBJ_44 /* TestSetCommandsPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSetCommandsPart2.swift; sourceTree = "<group>"; };
+		OBJ_45 /* TestSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSort.swift; sourceTree = "<group>"; };
+		OBJ_46 /* TestStringAndBitCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStringAndBitCommands.swift; sourceTree = "<group>"; };
+		OBJ_47 /* TestTransactionsPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTransactionsPart1.swift; sourceTree = "<group>"; };
+		OBJ_48 /* TestTransactionsPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTransactionsPart2.swift; sourceTree = "<group>"; };
+		OBJ_49 /* TestTransactionsPart3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTransactionsPart3.swift; sourceTree = "<group>"; };
+		OBJ_50 /* TestTransactionsPart4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTransactionsPart4.swift; sourceTree = "<group>"; };
+		OBJ_51 /* TestTransactionsPart5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTransactionsPart5.swift; sourceTree = "<group>"; };
+		OBJ_52 /* TestTransactionsPart6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTransactionsPart6.swift; sourceTree = "<group>"; };
+		OBJ_53 /* TestTransactionsPart7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTransactionsPart7.swift; sourceTree = "<group>"; };
+		OBJ_54 /* TestTransactionsPart8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTransactionsPart8.swift; sourceTree = "<group>"; };
+		OBJ_55 /* VerifyLinuxTestCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyLinuxTestCount.swift; sourceTree = "<group>"; };
+		OBJ_56 /* docs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = docs; sourceTree = SOURCE_ROOT; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_60 /* Socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		OBJ_61 /* SocketProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketProtocols.swift; sourceTree = "<group>"; };
+		OBJ_62 /* SocketUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketUtils.swift; sourceTree = "<group>"; };
+		OBJ_63 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/biehl/Library/Mobile Documents/com~apple~CloudDocs/AccessCamera-master/Dependencies/Kitura-redis/.build/checkouts/BlueSocket.git-3162807777605905816/Package.swift"; sourceTree = "<group>"; };
+		OBJ_9 /* Redis+Basic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Redis+Basic.swift"; sourceTree = "<group>"; };
+		"Socket::Socket::Product" /* Socket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Socket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SwiftRedis::SwiftRedis::Product" /* SwiftRedis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftRedis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SwiftRedis::SwiftRedisTests::Product" /* SwiftRedisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = SwiftRedisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_106 /* Socket.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_153 /* SwiftRedis.framework in Frameworks */,
+				OBJ_154 /* Socket.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_26 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_27 /* SwiftRedisTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_27 /* SwiftRedisTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_28 /* AuthTests.swift */,
+				OBJ_29 /* CommonUtils.swift */,
+				OBJ_30 /* TestBasicCommands.swift */,
+				OBJ_31 /* TestBinarySafeCommands.swift */,
+				OBJ_32 /* TestBitfield.swift */,
+				OBJ_33 /* TestConnectCommands.swift */,
+				OBJ_34 /* TestGeoCommands.swift */,
+				OBJ_35 /* TestGeoRadius.swift */,
+				OBJ_36 /* TestGeoRadiusByMember.swift */,
+				OBJ_37 /* TestHashCommands.swift */,
+				OBJ_38 /* TestIssueCommand.swift */,
+				OBJ_39 /* TestListsPart1.swift */,
+				OBJ_40 /* TestListsPart2.swift */,
+				OBJ_41 /* TestListsPart3.swift */,
+				OBJ_42 /* TestMoreCommands.swift */,
+				OBJ_43 /* TestSetCommands.swift */,
+				OBJ_44 /* TestSetCommandsPart2.swift */,
+				OBJ_45 /* TestSort.swift */,
+				OBJ_46 /* TestStringAndBitCommands.swift */,
+				OBJ_47 /* TestTransactionsPart1.swift */,
+				OBJ_48 /* TestTransactionsPart2.swift */,
+				OBJ_49 /* TestTransactionsPart3.swift */,
+				OBJ_50 /* TestTransactionsPart4.swift */,
+				OBJ_51 /* TestTransactionsPart5.swift */,
+				OBJ_52 /* TestTransactionsPart6.swift */,
+				OBJ_53 /* TestTransactionsPart7.swift */,
+				OBJ_54 /* TestTransactionsPart8.swift */,
+				OBJ_55 /* VerifyLinuxTestCount.swift */,
+			);
+			name = SwiftRedisTests;
+			path = Tests/SwiftRedisTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_26 /* Tests */,
+				OBJ_56 /* docs */,
+				OBJ_57 /* Dependencies */,
+				OBJ_64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		OBJ_57 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_58 /* Socket 1.0.6 */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_58 /* Socket 1.0.6 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_59 /* Socket */,
+				OBJ_63 /* Package.swift */,
+			);
+			name = "Socket 1.0.6";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_59 /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_60 /* Socket.swift */,
+				OBJ_61 /* SocketProtocols.swift */,
+				OBJ_62 /* SocketUtils.swift */,
+			);
+			name = Socket;
+			path = ".build/checkouts/BlueSocket.git-3162807777605905816/Sources/Socket";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"SwiftRedis::SwiftRedisTests::Product" /* SwiftRedisTests.xctest */,
+				"Socket::Socket::Product" /* Socket.framework */,
+				"SwiftRedis::SwiftRedis::Product" /* SwiftRedis.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* SwiftRedis */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* SwiftRedis */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* Redis+Basic.swift */,
+				OBJ_10 /* Redis+Geo.swift */,
+				OBJ_11 /* Redis+Hash.swift */,
+				OBJ_12 /* Redis+List.swift */,
+				OBJ_13 /* Redis+Set.swift */,
+				OBJ_14 /* Redis+SortedSet.swift */,
+				OBJ_15 /* Redis.swift */,
+				OBJ_16 /* RedisInfo.swift */,
+				OBJ_17 /* RedisMisc.swift */,
+				OBJ_18 /* RedisMulti+Basic.swift */,
+				OBJ_19 /* RedisMulti+Geo.swift */,
+				OBJ_20 /* RedisMulti+Hash.swift */,
+				OBJ_21 /* RedisMulti+List.swift */,
+				OBJ_22 /* RedisMulti+Set.swift */,
+				OBJ_23 /* RedisMulti+SortedSet.swift */,
+				OBJ_24 /* RedisMulti.swift */,
+				OBJ_25 /* RedisResp.swift */,
+			);
+			name = SwiftRedis;
+			path = Sources/SwiftRedis;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"Socket::Socket" /* Socket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_69 /* Build configuration list for PBXNativeTarget "Socket" */;
+			buildPhases = (
+				OBJ_72 /* Sources */,
+				OBJ_76 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Socket;
+			productName = Socket;
+			productReference = "Socket::Socket::Product" /* Socket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Socket::SwiftPMPackageDescription" /* SocketPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_78 /* Build configuration list for PBXNativeTarget "SocketPackageDescription" */;
+			buildPhases = (
+				OBJ_81 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketPackageDescription;
+			productName = SocketPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"SwiftRedis::SwiftPMPackageDescription" /* SwiftRedisPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_109 /* Build configuration list for PBXNativeTarget "SwiftRedisPackageDescription" */;
+			buildPhases = (
+				OBJ_112 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftRedisPackageDescription;
+			productName = SwiftRedisPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"SwiftRedis::SwiftRedis" /* SwiftRedis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_84 /* Build configuration list for PBXNativeTarget "SwiftRedis" */;
+			buildPhases = (
+				OBJ_87 /* Sources */,
+				OBJ_105 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_107 /* PBXTargetDependency */,
+			);
+			name = SwiftRedis;
+			productName = SwiftRedis;
+			productReference = "SwiftRedis::SwiftRedis::Product" /* SwiftRedis.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"SwiftRedis::SwiftRedisTests" /* SwiftRedisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_120 /* Build configuration list for PBXNativeTarget "SwiftRedisTests" */;
+			buildPhases = (
+				OBJ_123 /* Sources */,
+				OBJ_152 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_155 /* PBXTargetDependency */,
+				OBJ_156 /* PBXTargetDependency */,
+			);
+			name = SwiftRedisTests;
+			productName = SwiftRedisTests;
+			productReference = "SwiftRedis::SwiftRedisTests::Product" /* SwiftRedisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					"Socket::Socket" = {
+						DevelopmentTeam = PJE745CSFW;
+					};
+					"SwiftRedis::SwiftRedis" = {
+						DevelopmentTeam = PJE745CSFW;
+					};
+					"SwiftRedis::SwiftRedisTests" = {
+						DevelopmentTeam = PJE745CSFW;
+					};
+				};
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "SwiftRedis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"Socket::Socket" /* Socket */,
+				"Socket::SwiftPMPackageDescription" /* SocketPackageDescription */,
+				"SwiftRedis::SwiftRedis" /* SwiftRedis */,
+				"SwiftRedis::SwiftPMPackageDescription" /* SwiftRedisPackageDescription */,
+				"SwiftRedis::SwiftRedisPackageTests::ProductTarget" /* SwiftRedisPackageTests */,
+				"SwiftRedis::SwiftRedisTests" /* SwiftRedisTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_113 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_124 /* AuthTests.swift in Sources */,
+				OBJ_125 /* CommonUtils.swift in Sources */,
+				OBJ_126 /* TestBasicCommands.swift in Sources */,
+				OBJ_127 /* TestBinarySafeCommands.swift in Sources */,
+				OBJ_128 /* TestBitfield.swift in Sources */,
+				OBJ_129 /* TestConnectCommands.swift in Sources */,
+				OBJ_130 /* TestGeoCommands.swift in Sources */,
+				OBJ_131 /* TestGeoRadius.swift in Sources */,
+				OBJ_132 /* TestGeoRadiusByMember.swift in Sources */,
+				OBJ_133 /* TestHashCommands.swift in Sources */,
+				OBJ_134 /* TestIssueCommand.swift in Sources */,
+				OBJ_135 /* TestListsPart1.swift in Sources */,
+				OBJ_136 /* TestListsPart2.swift in Sources */,
+				OBJ_137 /* TestListsPart3.swift in Sources */,
+				OBJ_138 /* TestMoreCommands.swift in Sources */,
+				OBJ_139 /* TestSetCommands.swift in Sources */,
+				OBJ_140 /* TestSetCommandsPart2.swift in Sources */,
+				OBJ_141 /* TestSort.swift in Sources */,
+				OBJ_142 /* TestStringAndBitCommands.swift in Sources */,
+				OBJ_143 /* TestTransactionsPart1.swift in Sources */,
+				OBJ_144 /* TestTransactionsPart2.swift in Sources */,
+				OBJ_145 /* TestTransactionsPart3.swift in Sources */,
+				OBJ_146 /* TestTransactionsPart4.swift in Sources */,
+				OBJ_147 /* TestTransactionsPart5.swift in Sources */,
+				OBJ_148 /* TestTransactionsPart6.swift in Sources */,
+				OBJ_149 /* TestTransactionsPart7.swift in Sources */,
+				OBJ_150 /* TestTransactionsPart8.swift in Sources */,
+				OBJ_151 /* VerifyLinuxTestCount.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_73 /* Socket.swift in Sources */,
+				OBJ_74 /* SocketProtocols.swift in Sources */,
+				OBJ_75 /* SocketUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_82 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_88 /* Redis+Basic.swift in Sources */,
+				OBJ_89 /* Redis+Geo.swift in Sources */,
+				OBJ_90 /* Redis+Hash.swift in Sources */,
+				OBJ_91 /* Redis+List.swift in Sources */,
+				OBJ_92 /* Redis+Set.swift in Sources */,
+				OBJ_93 /* Redis+SortedSet.swift in Sources */,
+				OBJ_94 /* Redis.swift in Sources */,
+				OBJ_95 /* RedisInfo.swift in Sources */,
+				OBJ_96 /* RedisMisc.swift in Sources */,
+				OBJ_97 /* RedisMulti+Basic.swift in Sources */,
+				OBJ_98 /* RedisMulti+Geo.swift in Sources */,
+				OBJ_99 /* RedisMulti+Hash.swift in Sources */,
+				OBJ_100 /* RedisMulti+List.swift in Sources */,
+				OBJ_101 /* RedisMulti+Set.swift in Sources */,
+				OBJ_102 /* RedisMulti+SortedSet.swift in Sources */,
+				OBJ_103 /* RedisMulti.swift in Sources */,
+				OBJ_104 /* RedisResp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_107 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Socket::Socket" /* Socket */;
+			targetProxy = 23F3480520B7C3F200CD8919 /* PBXContainerItemProxy */;
+		};
+		OBJ_118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftRedis::SwiftRedisTests" /* SwiftRedisTests */;
+			targetProxy = 23F3480820B7C3F300CD8919 /* PBXContainerItemProxy */;
+		};
+		OBJ_155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftRedis::SwiftRedis" /* SwiftRedis */;
+			targetProxy = 23F3480620B7C3F200CD8919 /* PBXContainerItemProxy */;
+		};
+		OBJ_156 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Socket::Socket" /* Socket */;
+			targetProxy = 23F3480720B7C3F200CD8919 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = PJE745CSFW;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftRedis.xcodeproj/SwiftRedisTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = SwiftRedisTests;
+			};
+			name = Debug;
+		};
+		OBJ_122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftRedis.xcodeproj/SwiftRedisTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = SwiftRedisTests;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: jtbiehl@icloud.com (43FEK7LMT7)";
+				DEVELOPMENT_TEAM = PJE745CSFW;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftRedis.xcodeproj/Socket_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Socket;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = Socket;
+			};
+			name = Debug;
+		};
+		OBJ_71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftRedis.xcodeproj/Socket_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Socket;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = Socket;
+			};
+			name = Release;
+		};
+		OBJ_79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: jtbiehl@icloud.com (43FEK7LMT7)";
+				DEVELOPMENT_TEAM = PJE745CSFW;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftRedis.xcodeproj/SwiftRedis_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftRedis;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = SwiftRedis;
+			};
+			name = Debug;
+		};
+		OBJ_86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftRedis.xcodeproj/SwiftRedis_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftRedis;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = SwiftRedis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_109 /* Build configuration list for PBXNativeTarget "SwiftRedisPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_110 /* Debug */,
+				OBJ_111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_115 /* Build configuration list for PBXAggregateTarget "SwiftRedisPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_116 /* Debug */,
+				OBJ_117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_120 /* Build configuration list for PBXNativeTarget "SwiftRedisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_121 /* Debug */,
+				OBJ_122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "SwiftRedis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_69 /* Build configuration list for PBXNativeTarget "Socket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_70 /* Debug */,
+				OBJ_71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_78 /* Build configuration list for PBXNativeTarget "SocketPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_79 /* Debug */,
+				OBJ_80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_84 /* Build configuration list for PBXNativeTarget "SwiftRedis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_85 /* Debug */,
+				OBJ_86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
